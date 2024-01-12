@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Strom
+    internal class Strom : Organizmus
     {
         public double radius;
         public double vyska;
