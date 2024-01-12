@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Class2
+    interface Organizmus
     {
     }
 }

@@ -8,7 +8,7 @@ namespace ConsoleApp9
 {
     internal class Vetvicka : Strom
     {
-        public Vetvicka(int radius1, int vyska1) : base(radius1, vyska1)
+        public Vetvicka(double radius1, double vyska1) : base(radius1, vyska1)
         {
             radius = radius1;
             vyska = vyska1;

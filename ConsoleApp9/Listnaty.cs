@@ -10,7 +10,7 @@ namespace ConsoleApp9
     {
 
 
-        public Listnaty(int radius1, int vyska1) : base(radius1, vyska1)
+        public Listnaty(double radius1, double vyska1) : base(radius1, vyska1)
         {
             radius = radius1;
             vyska = vyska1;

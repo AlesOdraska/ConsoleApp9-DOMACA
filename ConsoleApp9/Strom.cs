@@ -10,7 +10,9 @@ namespace ConsoleApp9
     {
         public double radius;
         public double vyska;
-        public Strom(int radius1, int vyska1)
+
+        List<Vetvicka> vetva = new List<Vetvicka>();
+        public Strom(double radius1, double vyska1)
         {
             radius = radius1;
             vyska = vyska1;

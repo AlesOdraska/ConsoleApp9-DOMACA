@@ -9,7 +9,7 @@ namespace ConsoleApp9
     internal class Baobab : Strom
     {
 
-        public Baobab(int radius1, int vyska1) : base(radius1, vyska1)
+        public Baobab(double radius1, double vyska1) : base(radius1, vyska1)
         {
             radius = radius1;
             vyska = vyska1;
