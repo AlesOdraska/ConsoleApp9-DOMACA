@@ -6,12 +6,21 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp9
 {
-    internal class Vetvicka : Strom
+    public class Vetvicka 
     {
-        public Vetvicka(double radius1, double vyska1) : base(radius1, vyska1)
+        public double radius;
+        public double vyska;
+
+
+        public Vetvicka(double radius, double vyska)
         {
-            radius = radius1;
-            vyska = vyska1;
+            this.radius = radius;
+            this.vyska = vyska;
+  
+        }
+        public virtual double Volume
+        {
+            get { return Math.PI * Math.Pow(radius, 2) * vyska; }
         }
 
     }

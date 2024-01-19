@@ -8,5 +8,8 @@ namespace ConsoleApp9
 {
     interface Organizmus
     {
+
+        public void Rastie();
+
     }
 }
